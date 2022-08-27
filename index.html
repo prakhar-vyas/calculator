@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css" />
+    <script src="calc.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1>Calculator</h1>
+    </div>
+    <div class="maindiv">
+      <div class="grid-container">
+        <input class="grid-item grid" id="result" type="text" />
+        <button type="button" class="grid-item grid1" onclick="clean()">C</button>
+        <button class="grid-item" id="1" onclick="display('1')" >1</button>
+        <button class="grid-item" id="2" onclick="display('2')" >2</button>
+        <button class="grid-item" id="3" onclick="display('3')" >3</button>
+        <button class="grid-item" id="+" onclick="display('+')" >+</button>
+        <button class="grid-item" id="4" onclick="display('4')" >4</button>
+        <button class="grid-item" id="5" onclick="display('5')" >5</button>
+        <button class="grid-item" id="6" onclick="display('6')" >6</button>
+        <button class="grid-item" id="-" onclick="display('-')" >-</button>
+        <button class="grid-item" id="7" onclick="display('7')" >7</button>
+        <button class="grid-item" id="8" onclick="display('8')" >8</button>
+        <button class="grid-item" id="9" onclick="display('9')" >9</button>
+        <button class="grid-item" id="*" onclick="display('*')" >*</button>
+        <button class="grid-item" id="/" onclick="display('/')" >/</button>
+        <button class="grid-item" id="0" onclick="display('0')" >0</button>
+        <button class="grid-item" id="." onclick="display('.')" >.</button>
+        <button class="grid-item" id="=" onclick="calculate()" >=</button>
+      </div>
+    </div>
+  </body>
+</html>
